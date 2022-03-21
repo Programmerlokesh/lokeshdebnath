@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #131a22;
+  height: 10vh;
+  p {
+    text-align: center;
+    font-size: 1.9rem;
+    color: var(--color-primary);
+    font-family: "Lato", sans-serif;
+  }
+}
