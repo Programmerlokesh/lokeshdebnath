@@ -4,7 +4,7 @@ import {
   FaGithubSquare,
   FaInstagramSquare,
   FaLinkedin,
-} from "react-icons/all";
+} from "react-icons/fa";
 
 const AboutSection = () => {
   return (
