@@ -63,7 +63,7 @@ const MyDetails = () => {
   `;
   const AboutEmail = styled.div``;
   const AboutPhone = styled.div``;
-  //   const AboutResume = styled.div``;
+  const AboutResume = styled.div``;
   const AboutIcon = styled.div``;
   const Link = styled.a`
     color: var(--color-primary);
@@ -73,7 +73,7 @@ const MyDetails = () => {
       <Container>
         <AboutmeSkills>
           <ImageDiv>
-            <Lokesh src="/me.jpg" alt="" srcset="" />
+            <Lokesh src="me.jpg" alt="" srcset="" />
           </ImageDiv>
           <AboutDetails>
             <SelfTalk>
@@ -88,6 +88,11 @@ const MyDetails = () => {
                 Phone: <Link href="tel:+91 9733116447"></Link>
               </p>
             </AboutPhone>
+            <AboutResume>
+              <p>
+                <Link href="resume.pdf" download></Link>
+              </p>
+            </AboutResume>
             <AboutIcon></AboutIcon>
           </AboutDetails>
         </AboutmeSkills>

@@ -36,7 +36,9 @@ const AboutSection = () => {
             <div className="resume">
               <p>
                 Resume:
-                <a href="/">Click to download</a>
+                <a href="resume.pdf" download>
+                  Click to download
+                </a>
               </p>
             </div>
             <div className="social_link">
