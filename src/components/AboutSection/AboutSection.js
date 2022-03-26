@@ -50,7 +50,7 @@ const AboutSection = () => {
                 <FaGithubSquare />
               </a>
               <a
-                href="https://www.linkedin.com/in/lokesh-debnath-b1302921a/"
+                href="https://www.linkedin.com/in/lokesh-debnath-b1302921a"
                 target="_blank"
                 rel="noreferrer"
               >
